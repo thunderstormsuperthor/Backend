@@ -14,9 +14,9 @@ class _Settings(BaseSettings):
 
     RCLONE_LISTEN_PORT: int = int(getenv("RCLONE_LISTEN_PORT", "35530"))
 
-    MONGODB_DOMAIN: str = getenv("cluster0.uscpkeg.mongodb.net")
-    MONGODB_USERNAME: str = getenv("Fnite")
-    MONGODB_PASSWORD: str = getenv("HEywd6DBYDnbWdtT")
+MONGODB_DOMAIN=cluster0.uscpkeg.mongodb.net
+MONGODB_USERNAME=Fnite
+MONGODB_PASSWORD=HEywd6DBYDnbWdtT
 
 
 settings = _Settings()
